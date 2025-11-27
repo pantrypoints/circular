@@ -96,19 +96,18 @@ newsletter_button = "Send"
 
 ############################# social site ########################
 
-[params.social]
-title = "website"
-icon = "fas fa-globe-asia" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.pantrypoints.com/trisactions/circle/"
+[[params.social]]
+  title = "website"
+  icon = "fas fa-globe-asia"
+  link = "https://www.pantrypoints.com/trisactions/circle/"
 
+[[params.social]]
+  title = "facebook"
+  icon = "fab fa-facebook"
+  link = "https://www.facebook.com/pantrypoints"
 
-[params.social]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/pantrypoints"
-
-[params.social]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/pantrypoints"
+[[params.social]]
+  title = "twitter"
+  icon = "fab fa-twitter"
+  link = "https://twitter.com/pantrypoints"
 
