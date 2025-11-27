@@ -1,0 +1,122 @@
+#################### default parameters ################################
+favicon = "logos/c.png"
+logo = "logos/circle.png"
+# use `x` with logo_width, example: "100x".
+# Note: logo_width is not work with .svg file
+logo_width = "150x"
+# logo text will only show when logo is missing.
+logo_text = "Circle"
+navbar_fixed = false
+description = "Pantrypoints Circle"
+# author = "Themefisher"
+image = "logos/circle.png" # this image will be used as fallback if a page has no image of its own
+# address = ""
+# mobile = ""
+email = "hello@pantrypoints.com"
+contact_form_action = "#" # contact form works with https://formspree.io
+search = true
+
+# Posts related Titles & Contents
+categories_title = "Categories"
+posts_title = "Featured"
+featured_post_title = "Featured Post"
+recent_post_title = "Recent Post"
+featured_post_button = "Featured"
+recent_post_button = "Recent"
+read_more_button = "Read more"
+previous_button = "Previous"
+next_button = "Next"
+related_posts = "Related Posts"
+showing_posts = ""
+no_categories_found = "No Categories Found"
+no_tags_found = "No Tags Found"
+
+mainSections = ["blog", "feeding", "food-rescues", "plastic-rescues", "seed-rescues", "harvests"]
+# about widget content
+about_widget_content = "Pantrypoints Circle implements the circular economy sustainably using points instead of money"
+footer_content = "Let's End Food Waste and Involuntary Hunger for Good!"
+custom_script= ""
+theme_copyright = true
+copyright = "Copyright 2023 | Pantrypoints Technologies"
+
+# 404
+error_404_text = "404 Page Not Found!"
+error_404_button = "Back To Home"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Banner
+[banner]
+enable = true
+title_large = "The Circular Economy."
+title_small = "In Points."
+image = "images/banner.png"
+background_image = "/images/banner-bg-shape.svg"
+content = "Try the Circle app, join food rescues and feeding programs, or donate to a charity."
+button_label = "App: Register in the Waitlist"
+button_link = "https://hub.pantrypoints.com/signup"
+button_label2 = "Join or Donate"
+button_link2 = "/contact/"
+
+# Advertise
+[advertisement]
+image = "banners/dd.png"
+link = "https://play.google.com/store/apps/details?id=com.pantrypoints.diet"
+
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["about", "categories", "recent-post", "newsletter"]
+# available widget : about,categories,newsletter,recent-post
+
+
+# Subscription
+[subscription]
+enable = false
+newsletter_title = "Stay Updated"
+newsletter_invitation = "Join Pantrypoints Circle by sending your email or contact number with country code below"
+newsletter_placeholder = "john@company.com"
+newsletter_reminder_a = "Check out our"
+newsletter_reminder_b = "Privacy Policy"
+newsletter_button = "Send"
+# mailchimp subsciption
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+
+############################# social site ########################
+[[social]]
+title = "website"
+icon = "fas fa-globe-asia" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.pantrypoints.com/trisactions/circle/"
+
+
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/pantrypoints"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/pantrypoints"
+
+# [[social]]
+# title = "github"
+# icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
+
+# [[social]]
+# title = "linkedin"
+# icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"

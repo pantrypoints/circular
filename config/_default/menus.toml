@@ -1,0 +1,86 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Contact"
+url = "/contact/"
+weight = 2
+# hasChildren = true
+
+
+[[main]]
+name = "About"
+# url = "about/"
+weight = 9
+
+  [[main]]
+  parent = "About"
+  name = "About Us"
+  url = "/about/"
+  weight = 90
+
+  [[main]]
+  parent = "About"
+  name = "Items"
+  url = "/items/"
+  weight = 92
+
+  [[main]]
+  parent = "About"
+  name = "Tags"
+  url = "/tags/"
+  weight = 95
+
+  [[main]]
+  parent = "About"
+  name = "Categories"
+  url = "/categories/"
+  weight = 96
+
+
+
+[[main]]
+name = "Food"
+weight = 3
+
+
+  [[main]]
+  parent = "Food"
+  name = "Mass Feeding"
+  url = "/feeding/"
+  weight = 31
+
+  [[main]]
+  parent = "Food"
+  name = "Food Rescue"
+  url = "/food-rescues/"
+  weight = 32
+
+
+
+
+# footer menu
+[[footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 4
